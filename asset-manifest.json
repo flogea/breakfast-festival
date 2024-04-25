@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/breakfast-festival/static/css/main.dd95580c.css",
+    "main.js": "/breakfast-festival/static/js/main.626d8c99.js",
+    "index.html": "/breakfast-festival/index.html",
+    "static/media/bg.svg": "/breakfast-festival/static/media/bg.c9c25e0267e0312edbb5.svg",
+    "main.dd95580c.css.map": "/breakfast-festival/static/css/main.dd95580c.css.map",
+    "main.626d8c99.js.map": "/breakfast-festival/static/js/main.626d8c99.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dd95580c.css",
+    "static/js/main.626d8c99.js"
+  ]
+}
