@@ -1,0 +1,17 @@
+.button {
+  width: 280px;
+  height: 60px;
+  border: 1px solid #ff7777;
+  background: #ff7777;
+  color: white;
+  font-size: 20px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  cursor: pointer;
+
+
+  &.outline {
+    border: 2px solid #ff7777;
+    background: white;
+    color: #ff7777;
+  }
+}

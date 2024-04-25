@@ -1,0 +1,109 @@
+.emptyCard {
+  display: flex;
+  border: 1px solid rgb(189, 189, 189);
+  background: white;
+
+  .image {
+    border: 1px solid rgb(189, 189, 189);
+    width: 250px;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px;
+
+    .h2 {
+      width: 60%;
+      text-align: center;
+      text-transform: uppercase;
+    }
+  }
+
+  .menuEmpty {
+    border: 1px solid rgb(189, 189, 189);
+    display: flex;
+
+
+    .menuList {
+      min-width: 250px;
+      margin: 0;
+      padding: 0 16px;
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      .menuItem {
+        width: 100%;
+        padding: 8px 0;
+        display: flex;
+        justify-content: space-between;
+      }
+
+      .itemName {
+        font-weight: 600;
+      }
+    }
+  }
+}
+
+
+.card {
+  display: flex;
+
+  .image {
+    position: relative;
+    overflow: hidden;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    img {
+      object-fit: cover;
+      filter: brightness(0.5);
+    }
+
+    .h2 {
+      position: absolute;
+      width: 80%;
+      word-wrap: break-word;
+      text-align: center;
+      text-transform: uppercase;
+      z-index: 200;
+      color: white;
+      font-size: 36px;
+    }
+  }
+
+  .menu {
+    display: flex;
+    max-width: 580px;
+
+    .menuList {
+      min-width: 250px;
+      margin: 0;
+      padding: 0 16px;
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      .menuItem {
+        width: 100%;
+        padding: 8px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .itemName {
+          padding: 0 16px;
+          font-weight: 600;
+        }
+      }
+    }
+  }
+}
